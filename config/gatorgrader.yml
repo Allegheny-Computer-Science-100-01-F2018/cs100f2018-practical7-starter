@@ -15,6 +15,6 @@ src/main:
             --fragment "==" --count 3
             --fragment "REFERENCE_YEAR" --count 2
             --fragment "boolean" --count 1
---commits 4
+--commits 5
 
 --command "gradle -q --console plain run" --executes
