@@ -1,0 +1,20 @@
+---
+name: cmpsc-100-fall-2018-practical7
+break: true
+indent: 4
+---
+src/main:
+    java:
+        practicalseven/YearChecker.java:
+            --single 9 --language Java
+            --multi 2 --language Java
+            --fragment "new Date(" --count 1
+            --fragment "println(" --count 9
+            --fragment "if" --count 4
+            --fragment "else" --count 1
+            --fragment "==" --count 3
+            --fragment "REFERENCE_YEAR" --count 2
+            --fragment "boolean" --count 1
+--commits 3
+
+--command "gradle -q --console plain run" --executes
