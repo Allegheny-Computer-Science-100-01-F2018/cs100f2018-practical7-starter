@@ -68,14 +68,13 @@ tutors if you have questions about any of these reading assignments.
 ## Commands
 
 To get started in using the GatorGrader tool, you can change into the directory
-for this assignment and type the command `./gatorgrader.sh --start` in your
-terminal. Now, if you want to perform all of the checks that will automatically
-evaluate your assignment, you can type the command `./gatorgrader.sh --check`.
+for this assignment and type the command `gradle grade` in your
+terminal.
 
 Running this command will produce a lot of output that you should carefully
 inspect. If the last line of the output indicates that GatorGrader judges that
 there are no mistakes in the assignment, then this means that your source code
-and writing are passing all of the automated checks. However, if the last line
+is passing all of the automated checks. However, if the last line
 of the output indicates that there are mistakes, then you will need to
 understand what they are and then try to fix them.
 
@@ -93,13 +92,6 @@ program's source code if it is a correct program) the program using the command
 To run one of these commands, you must be in the main directory for this
 assignment where the `build.gradle` file is located. Then, you can type the
 command in the terminal and study the output.
-
-If the course instructor publishes a new version of GatorGrader and asks you to
-access it, then you need change into the tool's directory by typing `cd
-gatorgrader`. Then, you can type the command `git pull` to download the new
-source code for the GatorGrader tool. If this command completes successfully,
-then you can return to the main directory for this practical assignment by
-typing `cd ..` and then continuing your work.
 
 ## Output
 
